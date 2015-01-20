@@ -1,7 +1,7 @@
 /* reset */
 head, body, h1, h2, h3, img,
 footer, ul, li, a, section,
-p, div, label, html {
+p, div, label, html, main {
   margin: 0;
   border: 0;
   padding: 0;
@@ -20,4 +20,155 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+input {
+  -webkit-appearance: none;
+}
+/* default */
+
+html, body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0;
+  height: 100%;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* style */
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.sidebar {
+  width: 400px;
+  height: 100%;
+  float: left;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 40px 0 20px 0px;
+}
+
+.profile-image{
+  background:url("me.jpg") no-repeat;
+  background-size:300px 450px;
+  background-position:-10px -60px;
+  height:270px;
+  width:270px;
+  border-radius:50%;
+  overflow:hidden;
+  margin:auto;
+}
+
+h2 {
+  margin: 40px 0;
+  font-size: 24px;
+}
+
+.sidebar-footer {
+  margin: 80px 0;
+}
+
+.sidebar-footer ul {
+}
+
+.sidebar-footer li {
+  padding: 20px;
+}
+
+.main {
+  margin-left: 420px;
+  height: 100%;
+  background: #fff;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.main-about {
+  display: none;
+  padding: 400px 0 0 0;
+}
+
+.main-about p {
+  padding: 15px 15px;
+  margin: 0 10px 0 0;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.main-about p:first-child  {
+  border-top: 1px solid #333;
+}
+
+.main-about p:last-child {
+  border-bottom: 1px solid #333;
+}
+
+.main-work {
+  display: none;
+}
+
+.container-grid {
+  padding: 200px 0 0 50px;
+}
+
+.container-grid div {
+  padding: 60px;
+  margin: 10px auto;
+  width: 200px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.main-contact {
+  display: block;
+}
+
+.container-grid2 {
+  padding: 400px 0 0 50px;
+}
+
+form {
+  width: 800px;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  padding-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 500px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+.submit {
+  padding: 10px;
+  margin: 10px 0 0 0;
+  width: 80px;
+  color: #fff;
+  background: #3a3b3c;
+  border: 1px solid #3a3b3c;
 }
