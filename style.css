@@ -184,4 +184,10 @@ form label {
 
 a:hover, h3:hover {
   cursor: pointer;
+  font-weight: bold;
+}
+
+.contact {
+  display: block;
+  margin: 30px 0;
 }
