@@ -29,11 +29,12 @@ input {
 
 html, body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
   margin: 0;
   height: 100%;
 }
+
 
 .group:after {
   content: "";
@@ -50,7 +51,7 @@ html, body {
 }
 
 .sidebar {
-  width: 400px;
+  width: 300px;
   height: 100%;
   float: left;
   background: #333;
@@ -80,7 +81,8 @@ h2 {
 }
 
 .sidebar-footer {
-  margin: 80px 0;
+  margin: 10px 0 0px 0;
+  background: #333;
 }
 
 .sidebar-footer ul {
@@ -105,7 +107,7 @@ h3 {
 }
 
 .main-about {
-  padding: 400px 0 0 0;
+  padding: 350px 100px 0 0;
 }
 
 .main-about p {
@@ -124,14 +126,15 @@ h3 {
 }
 
 .main-work {
+    padding: 0px 100px 0 0;
 }
 
 .container-grid {
-  padding: 50px 0 0 50px;
+  padding: 25px 0 0 50px;
 }
 
 .container-grid div {
-  padding: 30px;
+  padding: 25px;
   margin: 10px auto;
   width: 200px;
   border: 1px solid #333;
@@ -139,11 +142,12 @@ h3 {
 }
 
 .main-contact {
+  margin-right: 0px;
 }
-s
+
 .container-grid2 {
-  padding: 250px 0 0 0px;
-  margin: 0 0 0 200px;
+  padding: 100px 0 0 0px;
+  margin: 0 0 0 20px;
 }
 
 form {
